@@ -28,10 +28,10 @@ function clickHandler() {
     if (result === true) {
       output.innerHTML = "You are very lucky";
     } else {
-      output.innerHTML = "Sorry bru";
+      output.innerHTML = "Sorry, better luck next time";
     }
   } else {
-    output.innerHTML = "Please fill correct details";
+    output.innerHTML = "Please fill in all details";
   }
 }
 

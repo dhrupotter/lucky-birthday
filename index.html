@@ -5,25 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lucky Birthday</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <nav class="navigation">
+      <div class="navContent">Try your Luck</div>
+    </nav>
     <div>
-      <h1>Let's know your lucky number!</h1>
+      <h1 class="heading1">Let's know if your birthday is lucky!</h1>
     </div>
     <div>
-      <p>Select your birth date</p>
+      <p class="heading2">Select your birth date</p>
       <input class="birth-date" type="date" />
     </div>
     <div>
-      <p>What's your lucky number?</p>
-      <input class="lucky-number" type="number" />
+      <p class="heading2">What's your lucky number?</p>
+      <input
+        class="lucky-number"
+        type="number"
+        placeholder="Enter lucky number"
+      />
     </div>
     <div>
-      <div>
+      <div class="container">
         <button class="compute-btn">Is my birthday lucky?</button>
       </div>
       <div class="output"></div>
     </div>
+
+    <footer class="footer">
+      <div class="footer-header">Contact Me 👻</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline"><a class="link" href="/">Twitter</a></li>
+        <li class="list-item-inline"><a class="link" href="/">Github</a></li>
+        <li class="list-item-inline"><a class="link" href="/">LinkedIn</a></li>
+      </ul>
+    </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
